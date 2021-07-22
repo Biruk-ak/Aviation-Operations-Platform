@@ -1,0 +1,19 @@
+{
+  "name": "aviation-operations-platform-api",
+  "version": "1.0.0",
+  "description": "Enterprise aviation management API (Node.js + Express)",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test src/modules/**/__tests__/*.test.js"
+  },
+  "author": "Biruk-ak <birukaklilu0110@gmail.com>",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "helmet": "^7.1.0",
+    "morgan": "^1.10.0"
+  }
+}
