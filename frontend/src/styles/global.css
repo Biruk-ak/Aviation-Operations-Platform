@@ -1,0 +1,24 @@
+:root {
+  --aop-bg: #0b1c2c;
+  --aop-panel: #123049;
+  --aop-accent: #2f9e8b;
+  --aop-text: #e8eef5;
+  --aop-muted: #9bb0c3;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: "IBM Plex Sans", "Segoe UI", sans-serif;
+  background: radial-gradient(circle at top left, #163854, var(--aop-bg));
+  color: var(--aop-text);
+}
+a { color: var(--aop-accent); }
+.aop-shell { display: grid; grid-template-columns: 260px 1fr; min-height: 100vh; }
+.aop-nav { background: rgba(8, 22, 36, 0.9); padding: 1.25rem; }
+.aop-nav h1 { font-size: 1.1rem; margin: 0 0 1rem; }
+.aop-nav a { display: block; padding: 0.45rem 0; text-decoration: none; color: var(--aop-muted); }
+.aop-nav a:hover { color: var(--aop-text); }
+.aop-main { padding: 1.5rem; }
+.aop-table { width: 100%; border-collapse: collapse; }
+.aop-table th, .aop-table td { border-bottom: 1px solid rgba(255,255,255,0.08); padding: 0.55rem; text-align: left; }
+button { background: var(--aop-accent); color: #042019; border: 0; padding: 0.45rem 0.8rem; margin-right: 0.4rem; cursor: pointer; }
