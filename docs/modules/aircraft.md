@@ -259,3 +259,7 @@ Detailed operational workflow 49 for Aircraft: intake → validate → approve �
 ### Workflow 50
 
 Detailed operational workflow 50 for Aircraft: intake → validate → approve → execute → audit.
+
+## Release notes
+
+- Integrated Aircraft into platform navigation and API gateway.
