@@ -259,3 +259,7 @@ Detailed operational workflow 49 for Pilots: intake → validate → approve →
 ### Workflow 50
 
 Detailed operational workflow 50 for Pilots: intake → validate → approve → execute → audit.
+
+## Release notes
+
+- Integrated Pilots into platform navigation and API gateway.
