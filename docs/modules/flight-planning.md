@@ -259,3 +259,7 @@ Detailed operational workflow 49 for FlightPlanning: intake → validate → app
 ### Workflow 50
 
 Detailed operational workflow 50 for FlightPlanning: intake → validate → approve → execute → audit.
+
+## Release notes
+
+- Integrated FlightPlanning into platform navigation and API gateway.
