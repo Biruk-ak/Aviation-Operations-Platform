@@ -259,3 +259,7 @@ Detailed operational workflow 49 for Maintenance: intake → validate → approv
 ### Workflow 50
 
 Detailed operational workflow 50 for Maintenance: intake → validate → approve → execute → audit.
+
+## Release notes
+
+- Integrated Maintenance into platform navigation and API gateway.
