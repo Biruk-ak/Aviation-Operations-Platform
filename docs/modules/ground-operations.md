@@ -259,3 +259,7 @@ Detailed operational workflow 49 for GroundOperations: intake → validate → a
 ### Workflow 50
 
 Detailed operational workflow 50 for GroundOperations: intake → validate → approve → execute → audit.
+
+## Release notes
+
+- Integrated GroundOperations into platform navigation and API gateway.
