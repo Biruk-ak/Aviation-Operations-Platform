@@ -1,10 +1,125 @@
+# =========================
+# Dependencies
+# =========================
 node_modules/
+jspm_packages/
+.pnpm-store/
+.yarn/
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# =========================
+# Build / output
+# =========================
 dist/
 build/
+out/
+.next/
+.nuxt/
+.turbo/
+.vite/
+.cache/
+*.tsbuildinfo
+*.egg-info/
+.coverage/
+coverage/
+.nyc_output/
+htmlcov/
+storybook-static/
+.parcel-cache/
+
+# =========================
+# Environment & secrets
+# =========================
 .env
 .env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+credentials.json
+service-account*.json
+.aws/
+.azure/
+.gcloud/
+
+# =========================
+# Logs & debug
+# =========================
+logs/
 *.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# =========================
+# OS / editor
+# =========================
 .DS_Store
-coverage/
-.vite/
+.DS_Store?
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json.example
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# =========================
+# Testing / tooling
+# =========================
+.jest/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.eslintcache
+.stylelintcache
+*.lcov
+
+# =========================
+# Mobile / React Native
+# =========================
+android/app/build/
+ios/build/
+ios/Pods/
+*.jks
+*.keystore
+*.mobileprovision
+.expo/
+.expo-shared/
+web-build/
+
+# =========================
+# Misc project
+# =========================
 scripts/
+tmp/
+temp/
+*.local
+*.bak
+*.orig
+.vercel/
+.netlify/
+.serverless/
+dump.rdb
+*.sqlite
+*.sqlite3
+.history/
+.cursor/
+agent-transcripts/
