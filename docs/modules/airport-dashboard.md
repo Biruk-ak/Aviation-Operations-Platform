@@ -259,3 +259,7 @@ Detailed operational workflow 49 for AirportDashboard: intake → validate → a
 ### Workflow 50
 
 Detailed operational workflow 50 for AirportDashboard: intake → validate → approve → execute → audit.
+
+## Release notes
+
+- Integrated AirportDashboard into platform navigation and API gateway.
