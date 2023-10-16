@@ -259,3 +259,7 @@ Detailed operational workflow 49 for Cargo: intake → validate → approve → 
 ### Workflow 50
 
 Detailed operational workflow 50 for Cargo: intake → validate → approve → execute → audit.
+
+## Release notes
+
+- Integrated Cargo into platform navigation and API gateway.
