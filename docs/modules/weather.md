@@ -259,3 +259,7 @@ Detailed operational workflow 49 for Weather: intake → validate → approve �
 ### Workflow 50
 
 Detailed operational workflow 50 for Weather: intake → validate → approve → execute → audit.
+
+## Release notes
+
+- Integrated Weather into platform navigation and API gateway.
