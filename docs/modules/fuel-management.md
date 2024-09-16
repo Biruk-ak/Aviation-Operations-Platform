@@ -259,3 +259,7 @@ Detailed operational workflow 49 for FuelManagement: intake → validate → app
 ### Workflow 50
 
 Detailed operational workflow 50 for FuelManagement: intake → validate → approve → execute → audit.
+
+## Release notes
+
+- Integrated FuelManagement into platform navigation and API gateway.
