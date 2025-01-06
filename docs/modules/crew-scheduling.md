@@ -259,3 +259,7 @@ Detailed operational workflow 49 for CrewScheduling: intake → validate → app
 ### Workflow 50
 
 Detailed operational workflow 50 for CrewScheduling: intake → validate → approve → execute → audit.
+
+## Release notes
+
+- Integrated CrewScheduling into platform navigation and API gateway.
