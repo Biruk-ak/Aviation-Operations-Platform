@@ -31,6 +31,10 @@ function createApp() {
     res.json({ ok: true, service: 'Aviation Operations Platform', ts: new Date().toISOString() });
   });
 
+  app.get('/ready', (_req, res) => {
+    res.json({ ready: true, service: 'Aviation Operations Platform', ts: new Date().toISOString() });
+  });
+
   app.use('/api/v1/aircraft', buildAircraftRouter());
   app.use('/api/v1/pilots', buildPilotsRouter());
   app.use('/api/v1/flight-planning', buildFlightPlanningRouter());
