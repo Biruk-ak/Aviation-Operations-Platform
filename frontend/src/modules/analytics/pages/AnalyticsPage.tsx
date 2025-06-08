@@ -1,0 +1,40 @@
+/**
+ * Aviation Operations Platform
+ * Module: Analytics
+ * Layer: frontend/pages
+ * Enterprise aviation management suite.
+ * Copyright (c) Biruk-ak — All rights reserved.
+ */
+
+
+import React, { useMemo, useState } from 'react';
+import { useAnalyticsList, useAnalyticsMutations } from '../hooks/useAnalytics';
+import { AnalyticsTable } from '../components/AnalyticsTable';
+import { AnalyticsFilters } from '../components/AnalyticsFilters';
+import { AnalyticsForm } from '../components/AnalyticsForm';
+import { AnalyticsStatsPanel } from '../components/AnalyticsStatsPanel';
+
+export function AnalyticsPage() {
+  const { items, total, loading, error, filter, setFilter, reload } = useAnalyticsList();
+  const { busy, create, update, remove } = useAnalyticsMutations();
+  const [showForm, setShowForm] = useState(false);
+
+  const titleText = useMemo(() => `Aviation Operations — Analytics (${total})`, [total]);
+
+  return (
+    <section className={`aop-module aop-module--analytics`}>
+      <header className="aop-module__header">
+        <h1>{titleText}</h1>
+        <p>Enterprise aviation management module for operational control.</p>
+        <button type="button" disabled={busy} onClick={() => setShowForm(true)}>Create</button>
+        <button type="button" onClick={() => void reload()}>Refresh</button>
+      </header>
+      <AnalyticsFilters value={filter} onChange={setFilter} />
+      <AnalyticsStatsPanel />
+      {error ? <div className="aop-error">{error}</div> : null}
+      {loading ? <div className="aop-loading">Loading…</div> : null}
+      <AnalyticsTable items={items} onEdit={(row) => void update(row)} onDelete={(id) => void remove(id)} />
+      {showForm ? <AnalyticsForm onSubmit={async (v) => { await create(v); setShowForm(false); await reload(); }} onCancel={() => setShowForm(false)} /> : null}
+    </section>
+  );
+}

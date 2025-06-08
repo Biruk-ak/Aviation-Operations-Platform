@@ -1,0 +1,323 @@
+/* Analytics module styles — Aviation Operations Platform */
+.aop-module--analytics {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1.5rem;
+}
+.aop-module--analytics .zone-1 {
+  margin-block: 0.25rem;
+  opacity: 0.5900000000000001;
+}
+.aop-module--analytics .zone-2 {
+  margin-block: 0.5rem;
+  opacity: 0.63;
+}
+.aop-module--analytics .zone-3 {
+  margin-block: 0.75rem;
+  opacity: 0.67;
+}
+.aop-module--analytics .zone-4 {
+  margin-block: 1.0rem;
+  opacity: 0.7100000000000001;
+}
+.aop-module--analytics .zone-5 {
+  margin-block: 1.25rem;
+  opacity: 0.75;
+}
+.aop-module--analytics .zone-6 {
+  margin-block: 1.5rem;
+  opacity: 0.79;
+}
+.aop-module--analytics .zone-7 {
+  margin-block: 1.75rem;
+  opacity: 0.8300000000000001;
+}
+.aop-module--analytics .zone-8 {
+  margin-block: 0.0rem;
+  opacity: 0.8700000000000001;
+}
+.aop-module--analytics .zone-9 {
+  margin-block: 0.25rem;
+  opacity: 0.91;
+}
+.aop-module--analytics .zone-10 {
+  margin-block: 0.5rem;
+  opacity: 0.55;
+}
+.aop-module--analytics .zone-11 {
+  margin-block: 0.75rem;
+  opacity: 0.5900000000000001;
+}
+.aop-module--analytics .zone-12 {
+  margin-block: 1.0rem;
+  opacity: 0.63;
+}
+.aop-module--analytics .zone-13 {
+  margin-block: 1.25rem;
+  opacity: 0.67;
+}
+.aop-module--analytics .zone-14 {
+  margin-block: 1.5rem;
+  opacity: 0.7100000000000001;
+}
+.aop-module--analytics .zone-15 {
+  margin-block: 1.75rem;
+  opacity: 0.75;
+}
+.aop-module--analytics .zone-16 {
+  margin-block: 0.0rem;
+  opacity: 0.79;
+}
+.aop-module--analytics .zone-17 {
+  margin-block: 0.25rem;
+  opacity: 0.8300000000000001;
+}
+.aop-module--analytics .zone-18 {
+  margin-block: 0.5rem;
+  opacity: 0.8700000000000001;
+}
+.aop-module--analytics .zone-19 {
+  margin-block: 0.75rem;
+  opacity: 0.91;
+}
+.aop-module--analytics .zone-20 {
+  margin-block: 1.0rem;
+  opacity: 0.55;
+}
+.aop-module--analytics .zone-21 {
+  margin-block: 1.25rem;
+  opacity: 0.5900000000000001;
+}
+.aop-module--analytics .zone-22 {
+  margin-block: 1.5rem;
+  opacity: 0.63;
+}
+.aop-module--analytics .zone-23 {
+  margin-block: 1.75rem;
+  opacity: 0.67;
+}
+.aop-module--analytics .zone-24 {
+  margin-block: 0.0rem;
+  opacity: 0.7100000000000001;
+}
+.aop-module--analytics .zone-25 {
+  margin-block: 0.25rem;
+  opacity: 0.75;
+}
+.aop-module--analytics .zone-26 {
+  margin-block: 0.5rem;
+  opacity: 0.79;
+}
+.aop-module--analytics .zone-27 {
+  margin-block: 0.75rem;
+  opacity: 0.8300000000000001;
+}
+.aop-module--analytics .zone-28 {
+  margin-block: 1.0rem;
+  opacity: 0.8700000000000001;
+}
+.aop-module--analytics .zone-29 {
+  margin-block: 1.25rem;
+  opacity: 0.91;
+}
+.aop-module--analytics .zone-30 {
+  margin-block: 1.5rem;
+  opacity: 0.55;
+}
+.aop-module--analytics .zone-31 {
+  margin-block: 1.75rem;
+  opacity: 0.5900000000000001;
+}
+.aop-module--analytics .zone-32 {
+  margin-block: 0.0rem;
+  opacity: 0.63;
+}
+.aop-module--analytics .zone-33 {
+  margin-block: 0.25rem;
+  opacity: 0.67;
+}
+.aop-module--analytics .zone-34 {
+  margin-block: 0.5rem;
+  opacity: 0.7100000000000001;
+}
+.aop-module--analytics .zone-35 {
+  margin-block: 0.75rem;
+  opacity: 0.75;
+}
+.aop-module--analytics .zone-36 {
+  margin-block: 1.0rem;
+  opacity: 0.79;
+}
+.aop-module--analytics .zone-37 {
+  margin-block: 1.25rem;
+  opacity: 0.8300000000000001;
+}
+.aop-module--analytics .zone-38 {
+  margin-block: 1.5rem;
+  opacity: 0.8700000000000001;
+}
+.aop-module--analytics .zone-39 {
+  margin-block: 1.75rem;
+  opacity: 0.91;
+}
+.aop-module--analytics .zone-40 {
+  margin-block: 0.0rem;
+  opacity: 0.55;
+}
+.aop-module--analytics .zone-41 {
+  margin-block: 0.25rem;
+  opacity: 0.5900000000000001;
+}
+.aop-module--analytics .zone-42 {
+  margin-block: 0.5rem;
+  opacity: 0.63;
+}
+.aop-module--analytics .zone-43 {
+  margin-block: 0.75rem;
+  opacity: 0.67;
+}
+.aop-module--analytics .zone-44 {
+  margin-block: 1.0rem;
+  opacity: 0.7100000000000001;
+}
+.aop-module--analytics .zone-45 {
+  margin-block: 1.25rem;
+  opacity: 0.75;
+}
+.aop-module--analytics .zone-46 {
+  margin-block: 1.5rem;
+  opacity: 0.79;
+}
+.aop-module--analytics .zone-47 {
+  margin-block: 1.75rem;
+  opacity: 0.8300000000000001;
+}
+.aop-module--analytics .zone-48 {
+  margin-block: 0.0rem;
+  opacity: 0.8700000000000001;
+}
+.aop-module--analytics .zone-49 {
+  margin-block: 0.25rem;
+  opacity: 0.91;
+}
+.aop-module--analytics .zone-50 {
+  margin-block: 0.5rem;
+  opacity: 0.55;
+}
+.aop-module--analytics .zone-51 {
+  margin-block: 0.75rem;
+  opacity: 0.5900000000000001;
+}
+.aop-module--analytics .zone-52 {
+  margin-block: 1.0rem;
+  opacity: 0.63;
+}
+.aop-module--analytics .zone-53 {
+  margin-block: 1.25rem;
+  opacity: 0.67;
+}
+.aop-module--analytics .zone-54 {
+  margin-block: 1.5rem;
+  opacity: 0.7100000000000001;
+}
+.aop-module--analytics .zone-55 {
+  margin-block: 1.75rem;
+  opacity: 0.75;
+}
+.aop-module--analytics .zone-56 {
+  margin-block: 0.0rem;
+  opacity: 0.79;
+}
+.aop-module--analytics .zone-57 {
+  margin-block: 0.25rem;
+  opacity: 0.8300000000000001;
+}
+.aop-module--analytics .zone-58 {
+  margin-block: 0.5rem;
+  opacity: 0.8700000000000001;
+}
+.aop-module--analytics .zone-59 {
+  margin-block: 0.75rem;
+  opacity: 0.91;
+}
+.aop-module--analytics .zone-60 {
+  margin-block: 1.0rem;
+  opacity: 0.55;
+}
+.aop-module--analytics .zone-61 {
+  margin-block: 1.25rem;
+  opacity: 0.5900000000000001;
+}
+.aop-module--analytics .zone-62 {
+  margin-block: 1.5rem;
+  opacity: 0.63;
+}
+.aop-module--analytics .zone-63 {
+  margin-block: 1.75rem;
+  opacity: 0.67;
+}
+.aop-module--analytics .zone-64 {
+  margin-block: 0.0rem;
+  opacity: 0.7100000000000001;
+}
+.aop-module--analytics .zone-65 {
+  margin-block: 0.25rem;
+  opacity: 0.75;
+}
+.aop-module--analytics .zone-66 {
+  margin-block: 0.5rem;
+  opacity: 0.79;
+}
+.aop-module--analytics .zone-67 {
+  margin-block: 0.75rem;
+  opacity: 0.8300000000000001;
+}
+.aop-module--analytics .zone-68 {
+  margin-block: 1.0rem;
+  opacity: 0.8700000000000001;
+}
+.aop-module--analytics .zone-69 {
+  margin-block: 1.25rem;
+  opacity: 0.91;
+}
+.aop-module--analytics .zone-70 {
+  margin-block: 1.5rem;
+  opacity: 0.55;
+}
+.aop-module--analytics .zone-71 {
+  margin-block: 1.75rem;
+  opacity: 0.5900000000000001;
+}
+.aop-module--analytics .zone-72 {
+  margin-block: 0.0rem;
+  opacity: 0.63;
+}
+.aop-module--analytics .zone-73 {
+  margin-block: 0.25rem;
+  opacity: 0.67;
+}
+.aop-module--analytics .zone-74 {
+  margin-block: 0.5rem;
+  opacity: 0.7100000000000001;
+}
+.aop-module--analytics .zone-75 {
+  margin-block: 0.75rem;
+  opacity: 0.75;
+}
+.aop-module--analytics .zone-76 {
+  margin-block: 1.0rem;
+  opacity: 0.79;
+}
+.aop-module--analytics .zone-77 {
+  margin-block: 1.25rem;
+  opacity: 0.8300000000000001;
+}
+.aop-module--analytics .zone-78 {
+  margin-block: 1.5rem;
+  opacity: 0.8700000000000001;
+}
+.aop-module--analytics .zone-79 {
+  margin-block: 1.75rem;
+  opacity: 0.91;
+}
