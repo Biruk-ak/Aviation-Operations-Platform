@@ -259,3 +259,7 @@ Detailed operational workflow 49 for Analytics: intake → validate → approve 
 ### Workflow 50
 
 Detailed operational workflow 50 for Analytics: intake → validate → approve → execute → audit.
+
+## Release notes
+
+- Integrated Analytics into platform navigation and API gateway.
